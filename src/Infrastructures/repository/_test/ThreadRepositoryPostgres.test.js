@@ -89,7 +89,7 @@ describe("Thread Repository Postgres test", () => {
       );
 
       //Action
-      const createdThread = await threadRepositoryPostgres.addThread(payload);
+      await threadRepositoryPostgres.addThread(payload);
 
       //Assert
       //Cek apakah benar data ada di database

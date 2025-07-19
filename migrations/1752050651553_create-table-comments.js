@@ -18,7 +18,7 @@ export const up = (pgm) => {
       type: "TEXT",
       notNull: true,
     },
-    threads: {
+    thread: {
       type: "VARCHAR(50)",
       references: "threads",
       onDelete: "CASCADE",
